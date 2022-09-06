@@ -16,14 +16,14 @@ Each ApplicationServices shares the life cycle with AppDelegate, and becomes its
 PluggableApplicationDelegate is an open class from which your AppDelegate needs to inherit. Your AppDelegate then needs to override its `services` property, returning an ApplicationServices array.
                        DESC
 
-  s.homepage         = 'https://github.com/fmo91/PluggableApplicationDelegate'
+  s.homepage         = 'https://github.com/zzzworm/PluggableApplicationDelegate'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fmo91' => 'ortizfernandomartin@gmail.com' }
-  s.source           = { :git => 'https://github.com/fmo91/PluggableApplicationDelegate.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zzzworm/PluggableApplicationDelegate.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'PluggableApplicationDelegate/Classes/**/*'
   
